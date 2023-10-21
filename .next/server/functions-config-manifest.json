@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "functions": {
+    "/articles/[slug]": {},
+    "/blog/p/[current]": {},
+    "/blog": {},
+    "/blog/search/p/[current]": {},
+    "/blog/search": {},
+    "/blog/tags/[tagId]/p/[current]": {},
+    "/blog/tags/[tagId]": {}
+  }
+}

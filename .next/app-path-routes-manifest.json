@@ -1,0 +1,16 @@
+{
+  "/_not-found": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/",
+  "/about/page": "/about",
+  "/contact/page": "/contact",
+  "/nobel/page": "/nobel",
+  "/picture/page": "/picture",
+  "/articles/[slug]/page": "/articles/[slug]",
+  "/blog/page": "/blog",
+  "/blog/search/page": "/blog/search",
+  "/blog/p/[current]/page": "/blog/p/[current]",
+  "/blog/search/p/[current]/page": "/blog/search/p/[current]",
+  "/blog/tags/[tagId]/page": "/blog/tags/[tagId]",
+  "/blog/tags/[tagId]/p/[current]/page": "/blog/tags/[tagId]/p/[current]"
+}

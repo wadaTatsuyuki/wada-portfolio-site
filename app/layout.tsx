@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 import * as React from "react";
 import "@fontsource/roboto/300.css";
@@ -31,7 +32,10 @@ export default function RootLayout({
             </Button>
           </nav>
         </header>
-        <div>{children}</div>
+        <div>
+          {children}
+          <Analytics />
+        </div>
       </body>
     </html>
   );
