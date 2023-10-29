@@ -2,6 +2,6 @@
   "/page": "app/page.js",
   "/about/page": "app/about/page.js",
   "/nobel/page": "app/nobel/page.js",
-  "/blog/page": "app/blog/page.js",
-  "/articles/[slug]/page": "app/articles/[slug]/page.js"
+  "/picture/page": "app/picture/page.js",
+  "/blog/page": "app/blog/page.js"
 }
