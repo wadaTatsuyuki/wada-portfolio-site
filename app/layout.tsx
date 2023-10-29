@@ -1,11 +1,6 @@
 import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 import * as React from "react";
-import "@fontsource/roboto/300.css";
-import "@fontsource/roboto/400.css";
-import "@fontsource/roboto/500.css";
-import "@fontsource/roboto/700.css";
-import { Button } from "@mui/material";
 import Link from "next/link";
 
 export default function RootLayout({
@@ -16,22 +11,48 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body>
-        <header className="header">
-          <nav className="nav">
-            <div className="nav-left">
-              <Link href="/">WADA Tatsuyuki</Link>
+        <header className="p-3 border-b border-blue-400">
+          <div className="container grid grid-cols-12 gap-4 mx-auto p-2 max-w-screen-xl">
+            <div className="col-span-12 lg:col-span-3 mx-auto lg:mx-0">
+              <Link href="/" className="text-2xl">
+                WADA Tatsuyuki
+              </Link>
             </div>
-            <div className="nav-center">
-              <Link href="/blog">Blog</Link>
-              <Link href="/nobel">Nobel</Link>
-              <Link href="/picture">Picture</Link>
-              <Link href="/about">About</Link>
-            </div>
-            <Button variant="contained" color="warning">
-              <Link href="/contact">Contact</Link>
-            </Button>
-          </nav>
+            <nav className="col-span-12 lg:col-span-9 text-base flex flex-row justify-center space-x-2 lg:space-x-5 lg:flex-row lg:justify-end">
+              <Link
+                href="/blog"
+                className="hover:text-orange-400 transition-all duration-300"
+              >
+                Blog
+              </Link>
+              <Link
+                href="/nobel"
+                className="hover:text-orange-400 transition-all duration-300"
+              >
+                Nobel
+              </Link>
+              <Link
+                href="/picture"
+                className="hover:text-orange-400 transition-all duration-300"
+              >
+                Picture
+              </Link>
+              <Link
+                href="/about"
+                className="hover:text-orange-400 transition-all duration-300"
+              >
+                About
+              </Link>
+              <Link
+                href="/contact"
+                className="text-orange-400 hover:text-blue-400 transition-all duration-300"
+              >
+                Contact
+              </Link>
+            </nav>
+          </div>
         </header>
+
         <div>
           {children}
           <Analytics />

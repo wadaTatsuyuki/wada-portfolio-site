@@ -1,33 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-.header {
-  background-color: #0146a7;
-  padding: 10px 30px;
-  position: relative;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-}
-
-.nav-center {
-  display: flex;
-  gap: 20px;
-}
-
-.nav a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: color 0.3s;
-}
-
-.nav a:hover {
-  color: #ddd;
-}
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
