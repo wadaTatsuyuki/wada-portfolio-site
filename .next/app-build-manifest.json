@@ -11,10 +11,11 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/nobel/page": [
+    "/about/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/nobel/page.js"
+      "static/css/app/about/page.css",
+      "static/chunks/app/about/page.js"
     ],
     "/blog/page": [
       "static/chunks/webpack.js",
@@ -34,16 +35,16 @@
       "static/css/app/blog/not-found.css",
       "static/chunks/app/blog/not-found.js"
     ],
+    "/nobel/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/nobel/page.js"
+    ],
     "/picture/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/picture/page.css",
       "static/chunks/app/picture/page.js"
-    ],
-    "/about/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/about/page.js"
     ],
     "/contact/page": [
       "static/chunks/webpack.js",

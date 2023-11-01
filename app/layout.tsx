@@ -10,8 +10,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>和田 竜征のポートフォリオサイト</title>
+        <link rel="icon" href="./favicon.png" />
+      </head>
       <body>
-        <header className="p-3 border-b border-blue-400">
+        <header className="p-3">
           <div className="container grid grid-cols-12 gap-4 mx-auto p-2 max-w-screen-xl">
             <div className="col-span-12 lg:col-span-3 mx-auto lg:mx-0">
               <Link href="/" className="text-2xl">
