@@ -172,7 +172,7 @@ export default function Home() {
           <p>オーゼキコーキ 「逢える日」</p>
         </div>
         <div className="bg-gray-300 p-4">
-          <p>西川美和「すばらしき世界」</p>
+          <p>西川美和 「すばらしき世界」</p>
         </div>
       </div>
     </div>
