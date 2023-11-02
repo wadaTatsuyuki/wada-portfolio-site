@@ -39,7 +39,8 @@ export default function Home() {
               </p>
             </div>
             <div className="mt-5">
-              <p>休みの日は写真を撮ったり、小説を書いたりしています。</p>
+              <p>趣味は写真撮影と小説執筆。</p>
+              <p>どちらかというと犬派です。</p>
             </div>
           </div>
           <div className="mt-10 flex justify-center items-center">
@@ -150,7 +151,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-
+      <h2 className="text-4xl font-bold text-center">Six Pillars of Me</h2>
+      <h3 className="text-xl font-bold mb-10  text-center">
+        -私を構成する6つ-
+      </h3>
       <div className="grid grid-cols-3 gap-6 items-center justify-items-center">
         <div className="bg-gray-300 p-4">
           <p>マルクス・アウレリウス 「自省録」</p>
@@ -168,7 +172,7 @@ export default function Home() {
           <p>オーゼキコーキ 「逢える日」</p>
         </div>
         <div className="bg-gray-300 p-4">
-          {/* 6つ目の小さなコンテナの内容 */}
+          <p>西川美和「すばらしき世界」</p>
         </div>
       </div>
     </div>
