@@ -65,7 +65,17 @@ export default function Home() {
         <div className="p-4 relative">
           <div className="">
             <div className="mb-4">
-              <h3 className="text-center font-bold">Dressing My Way</h3>
+              <h3 className="text-center font-bold">
+                {" "}
+                <a
+                  href="https://dressingmyway.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="break-words underline hover:text-blue-500 "
+                >
+                  Dressing My Way
+                </a>
+              </h3>
               <p className="text-center">
                 -ラグジュアリーファッションレンタルサービス-
               </p>
@@ -115,7 +125,7 @@ export default function Home() {
                 <div className="flex items-start">
                   <span className="mr-2">・</span>
                   <p>
-                    ブランド運営についての提案や顧客を増やすための施作の考案、実行も行なっております。
+                    ブランド運営についての提案や顧客を増やすための施作の考案、実行も担当しています。
                   </p>
                 </div>
               </div>
@@ -127,52 +137,94 @@ export default function Home() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6 items-center">
         <div className="bg-gray-200 p-4">
           {" "}
-          <div className="">
+          <div className="h-1/5">
+            <p className="text-center my-3 underline hover:text-blue-500">
+              <a
+                href="https://wadatatsuyuki.github.io/fujikawaTransport/html/index.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                -藤川運輸様 ホームページ-
+              </a>
+            </p>
+            <p className="mb-2">
+              職業訓練校にて作成。実際にクライアントから要望をヒアリングし、6人チームで制作しています。私はディレクター兼コーダーを担当し、約60%程度のマークアップを実施しました。
+            </p>
             <a
               href="https://wadatatsuyuki.github.io/fujikawaTransport/html/index.html"
               target="_blank"
               rel="noopener noreferrer"
-              className="break-words text-blue-500 hover:underline"
             >
-              https://wadatatsuyuki.github.io/fujikawaTransport/html/index.html
+              <Image
+                alt="藤川運輸topページ"
+                src="/fujikawaTop.png"
+                // layout="responsive"
+                width={400}
+                height={400}
+                objectFit="cover"
+                className="mx-auto"
+              />
             </a>
           </div>
         </div>
-        <div className="bg-gray-200 p-4">
+        <div className="bg-gray-200 p-4 ">
           <div className="">
+            <p className="text-center my-3 underline hover:text-blue-500">
+              <a
+                href="https://wadatatsuyuki.github.io/bootstrap-tutorial/index.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                -BootStrapポートフォリオ-
+              </a>
+            </p>
+            <p className="mb-2">
+              BootStrapを学んだので、アウトプットとして作成しました。また、JavaScriptを用いて雪が降る演出を実装するなど、DOM操作も試してみました。
+            </p>
             <a
               href="https://wadatatsuyuki.github.io/bootstrap-tutorial/index.html"
               target="_blank"
               rel="noopener noreferrer"
-              className="break-words text-blue-500 hover:underline"
             >
-              https://wadatatsuyuki.github.io/bootstrap-tutorial/index.html
+              <Image
+                alt="藤川運輸topページ"
+                src="/bootstrap-portfolio.png"
+                // layout="responsive"
+                width={400}
+                height={400}
+                objectFit="cover"
+                className="mx-auto"
+              />
             </a>
           </div>
         </div>
       </div>
-      <h2 className="text-4xl font-bold text-center">Six Pillars of Me</h2>
-      <h3 className="text-xl font-bold mb-10  text-center">
-        -私を構成する6つ-
-      </h3>
-      <div className="grid grid-cols-3 gap-6 items-center justify-items-center">
-        <div className="bg-gray-300 p-4">
-          <p>マルクス・アウレリウス 「自省録」</p>
-        </div>
-        <div className="bg-gray-300 p-4">
-          <p>アダム・スミス 「道徳感情論」</p>
-        </div>
-        <div className="bg-gray-300 p-4">
-          <p>オイゲン・ヘリゲル 「弓と禅」</p>
-        </div>
-        <div className="bg-gray-300 p-4">
-          <p>小島秀夫 「メタルギアソリッド」</p>
-        </div>
-        <div className="bg-gray-300 p-4">
-          <p>オーゼキコーキ 「逢える日」</p>
-        </div>
-        <div className="bg-gray-300 p-4">
-          <p>西川美和 「すばらしき世界」</p>
+      <div>
+        <h2 className="text-4xl md:text-4xl sm:text-3xl font-bold text-center">
+          Six Pillars of Me
+        </h2>
+        <h3 className="text-xl md:text-xl sm:text-lg font-bold mb-10 text-center">
+          -私を構成する6つ-
+        </h3>
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 sm:gap-6 items-center justify-items-center">
+          <div className="bg-gray-300 p-3 sm:p-4">
+            <p>マルクス・アウレリウス 「自省録」</p>
+          </div>
+          <div className="bg-gray-300 p-3 sm:p-4">
+            <p>アダム・スミス 「道徳感情論」</p>
+          </div>
+          <div className="bg-gray-300 p-3 sm:p-4">
+            <p>オイゲン・ヘリゲル 「弓と禅」</p>
+          </div>
+          <div className="bg-gray-300 p-3 sm:p-4">
+            <p>小島秀夫 「メタルギアソリッド」</p>
+          </div>
+          <div className="bg-gray-300 p-3 sm:p-4">
+            <p>オーゼキコーキ 「逢える日」</p>
+          </div>
+          <div className="bg-gray-300 p-3 sm:p-4">
+            <p>西川美和 「すばらしき世界」</p>
+          </div>
         </div>
       </div>
     </div>
