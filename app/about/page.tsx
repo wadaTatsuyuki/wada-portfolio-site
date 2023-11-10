@@ -27,9 +27,7 @@ export default function Home() {
               <p>映画やインターネットなどのメディア研究をしていました。</p>
             </div>
             <div className="mt-5">
-              <p>
-                服飾史にも関心があり、大学卒業後はラグジュアリーアパレル業界に3年ほど従事。
-              </p>
+              <p>大学卒業後はラグジュアリーアパレル業界に3年ほど従事。</p>
             </div>
             <p>
               現在はWeb制作(ちょっとだけ開発)の技術を学び、アパレル事業会社にてWebディレクター兼エンジニアとして勤務。
@@ -201,7 +199,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div>
+      {/* <div>
         <h2 className="text-4xl md:text-4xl sm:text-3xl font-bold text-center">
           Six Pillars of Me
         </h2>
@@ -228,7 +226,7 @@ export default function Home() {
             <p>西川美和 「すばらしき世界」</p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
